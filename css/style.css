@@ -15,3 +15,12 @@ a{text-decoration:none}
 .back-to-top{position:fixed;right:18px;bottom:18px;padding:8px 10px;border-radius:6px;display:none;background:#111;color:#fff;border:none}
 footer{font-size:.95rem}
 @media(max-width:768px){.hero svg{width:100%;height:auto}}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; /* normal text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; /* bold for headings */
+}
+

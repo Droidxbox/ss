@@ -67,5 +67,10 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(90deg, #ff6a00, #ee0979) !important; /* gradient */
   box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
 }
+.card-img-top {
+    height: 180px;
+    object-fit: cover; /* crops to fit nicely */
+}
+
 
 

@@ -1,0 +1,17 @@
+:root{--accent:#6366f1;--muted:#6b7280}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#111;background:#fff}
+a{text-decoration:none}
+.navbar-brand{font-weight:600}
+.preloader{position:fixed;inset:0;z-index:2000;display:flex;align-items:center;justify-content:center;background:#fff}
+.preloader:after{content:'';width:48px;height:48px;border-radius:50%;border:5px solid rgba(0,0,0,0.08);border-top-color:var(--accent);animation:spin .9s linear infinite;display:block}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hero{background:linear-gradient(180deg,#ffffff,#f8fafc)}
+.hero .accent{color:var(--accent)}
+.stats .counter{font-size:1.5rem;font-weight:700}
+.progress{height:10px;border-radius:8px;overflow:hidden}
+.progress-bar{background:var(--accent)}
+.card{border:0;border-radius:8px}
+.back-to-top{position:fixed;right:18px;bottom:18px;padding:8px 10px;border-radius:6px;display:none;background:#111;color:#fff;border:none}
+footer{font-size:.95rem}
+@media(max-width:768px){.hero svg{width:100%;height:auto}}

@@ -1,4 +1,4 @@
-# Portfolio — Susan-style Clone (placeholders)
+# Portfolio 
 This repository is a multi-page Bootstrap 5 portfolio template that mirrors a clean single-portfolio layout.  
 All personal content is placeholders. Replace text and inline SVGs with your images and content.
 

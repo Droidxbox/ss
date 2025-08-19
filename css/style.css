@@ -67,6 +67,13 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(90deg, #ff6a00, #ee0979) !important; /* gradient */
   box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
 }
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #87ceeb, #ffffff); /* Sky Blue to White */
+  font-family: Arial, sans-serif;
+}
+
 
 
 
